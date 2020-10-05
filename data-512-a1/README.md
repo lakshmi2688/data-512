@@ -13,10 +13,10 @@ We combine the data from two different API endpoints, the Legacy Pagecounts API 
 <p>In order to measure Wikipedia traffic from 2008-2020, you will need to collect data from two different API endpoints, the Legacy Pagecounts API and the Pageviews API.</p>
 
 <ul><li>The Legacy Pagecounts API (documentation and endpoint links below) provides access to desktop and mobile traffic data from December 2007 through July 2016.
- href="https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts https://wikimedia.org/api/rest_v1/#/Pagecounts_data_(legacy)/get_metrics_legacy_pagecounts_aggregate_project_access_site_granularity_start_end </li>
+"https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts https://wikimedia.org/api/rest_v1/#/Pagecounts_data_(legacy)/get_metrics_legacy_pagecounts_aggregate_project_access_site_granularity_start_end </li>
 
  <li>The Pageviews API (documentation and endpoint links below) provides access to desktop, mobile web, and mobile app traffic data from July 2015 through last month. 
-https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews https://wikimedia.org/api/rest_v1/#/Pageviews_data/get_metrics_pageviews_aggregate_project_access_agent_granularity_start_end </li>
+https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews https://wikimedia.org/api/rest_v1/#/Pageviews_data/get_metrics_pageviews_aggregate_project_access_agent_granularity_start_end </li></ul>
 
 
 <h3><strong>Description of fields in the data file en-wikipedia_traffic_200712-202008.csv</strong></h3>
