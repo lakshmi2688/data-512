@@ -20,15 +20,15 @@ https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews https://wikimedia.or
 
 
 <h3><strong>Description of fields in the data file en-wikipedia_traffic_200712-202008.csv</strong></h3>
-<table>
-year	  - year in the format YYYY 
-month	  - month in the format MM
-pagecount_all_views	- number of views from pagecount API that has combined traffic from mobile and desktop 
-pagecount_desktop_views	- number of views from pagecount API that has combined traffic from desktop only
-pagecount_mobile_views	- number of views from pagecount API that has combined traffic from mobile only 
-pageview_all_views	- number of views from pageview API that has combined traffic from mobile and desktop 
-pageview_desktop_views - number of views from pageview API that has combined traffic from desktop only
-pageview_mobile_views - number of views from pageview API that has combined traffic from mobile only </table>
+<ul>
+<li>year	  - year in the format YYYY </li>
+<li>month	  - month in the format MM</li>
+<li>pagecount_all_views	- number of views from pagecount API that has combined traffic from mobile and desktop </li>
+<li>pagecount_desktop_views	- number of views from pagecount API that has combined traffic from desktop only</li>
+<li>pagecount_mobile_views	- number of views from pagecount API that has combined traffic from mobile only </li>
+<li>pageview_all_views	- number of views from pageview API that has combined traffic from mobile and desktop </li>
+<li>pageview_desktop_views - number of views from pageview API that has combined traffic from desktop only</li>
+<li>pageview_mobile_views - number of views from pageview API that has combined traffic from mobile only </ul>
 
 
 <h3><strong>Known issues/considerations</strong></h3>
