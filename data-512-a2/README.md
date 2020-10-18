@@ -25,6 +25,10 @@ Wulczyn, Ellery; Thain, Nithum; Dixon, Lucas (2016): Wikipedia Detox. figshare. 
 <li>https://figshare.com/articles/dataset/Wikipedia_Talk_Labels_Personal_Attacks/4054689</li>
 <li>https://figshare.com/articles/dataset/Wikipedia_Talk_Corpus/4264973</li></ul>
 
+<h4>Other reference links</h4>
+<ul><li><a href='https://meta.wikimedia.org/wiki/Research:Detox'>Overview of the research project Research:Detox</a></li>
+<li><a href='https://meta.wikimedia.org/wiki/Research:Detox/Data_Release'>Dataset description and schemas</a></li> 
+   <li><a href='https://conversationai.github.io/'>Overview of Google’s Conversation AI project</a></li></ul>
 
 <h4>Schema for attack_annotations dataset</h4>
 
