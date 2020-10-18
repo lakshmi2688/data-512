@@ -20,32 +20,17 @@
 <li>https://figshare.com/articles/dataset/Wikipedia_Talk_Labels_Personal_Attacks/4054689</li>
 <li>https://figshare.com/articles/dataset/Wikipedia_Talk_Corpus/4264973</li></ul>
 
-<h2><strong>Description of fields in the data file en-wikipedia_traffic_200712-202008.csv</strong></h2>
-	<table>	
-		<thead>	
+<p>Let's understand the different columns in the <strong>demographics</strong> dataset</p>
+<ul><li><strong>worker_id</strong>: Anonymized crowd-worker id.</li>
+<li><strong>gender</strong>: The gender of the crowd-worker. Takes a value in {'male', 'female', and 'other'}.</li>
+<li><strong>english_first_language</strong>: Does the crowd-worker describe English as their first language. Takes a value in {0, 1}.</li>
+<li><strong>age_group</strong>: The age group of the crowd-worker. Takes on values in {'Under 18', '18-30', '30-45', '45-60', 'Over 60'}.</li>
+<li><strong>education</strong>: The highest education level obtained by the crowd-worker. Takes on values in {'none', 'some', 'hs', 'bachelors', 'masters', 'doctorate', 'professional'}. Here 'none' means no schooling, some means 'some schooling', 'hs' means high school completion, and the remaining terms indicate completion of the corresponding degree type.</li></ul>
 
-		</thead>
-		<tbody>	
-      			<tr>	
-				<td>|</td>
-				<td>year</td>
-				<td>|</td>
-				<td>year in the format YYYY</td>
-				<td>|</td>		
-			</tr>
-			<tr>	
-				<td>month</td>
-				<td>month in the format MM</td>
-			</tr>
-			<tr>	
-				<td>	</td>
-				<td>	</td>
-				<td>	</td>
-			</tr>
-		</tbody>
-	</table>
-
-</body>
+| Columns        | Description    |
+| :------------- | :----------:  | 
+|  worker_id | Anonymized crowd-worker id.  | 
+| gender   | The gender of the crowd-worker. Takes a value in {'male', 'female', and 'other'}. | 
 
 
 <h2><strong>Known issues/considerations</strong></h2>
