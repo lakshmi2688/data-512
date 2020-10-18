@@ -21,6 +21,7 @@
 <li>https://figshare.com/articles/dataset/Wikipedia_Talk_Corpus/4264973</li></ul>
 
 <h4>Schema for demographics dataset</h4>
+
 | Columns        | Description    |
 | :------------- | :----------  | 
 |  worker_id | Anonymized crowd-worker id.  | 
@@ -30,6 +31,7 @@
 | education | The highest education level obtained by the crowd-worker. Takes on values in {'none', 'some', 'hs', 'bachelors', 'masters', 'doctorate', 'professional'}. Here 'none' means no schooling, some means 'some schooling', 'hs' means high school completion, and the remaining terms indicate completion of the corresponding degree type. | 
 
 <h4>Schema for annotations dataset</h4>
+
 | Columns        | Description    |
 | :------------- | :----------  | 
 |  rev_id |  MediaWiki revision id of the edit that added the comment to a talk page (i.e. discussion).  | 
