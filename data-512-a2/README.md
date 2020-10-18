@@ -28,9 +28,12 @@
 <li><strong>education</strong>: The highest education level obtained by the crowd-worker. Takes on values in {'none', 'some', 'hs', 'bachelors', 'masters', 'doctorate', 'professional'}. Here 'none' means no schooling, some means 'some schooling', 'hs' means high school completion, and the remaining terms indicate completion of the corresponding degree type.</li></ul>
 
 | Columns        | Description    |
-| :------------- | :----------:  | 
+| :------------- | :----------  | 
 |  worker_id | Anonymized crowd-worker id.  | 
 | gender   | The gender of the crowd-worker. Takes a value in {'male', 'female', and 'other'}. | 
+|  english_first_language | Does the crowd-worker describe English as their first language. Takes a value in {0, 1}. | 
+| age_group   | The age group of the crowd-worker. Takes on values in {'Under 18', '18-30', '30-45', '45-60', 'Over 60'}. | 
+
 
 
 <h2><strong>Known issues/considerations</strong></h2>
