@@ -20,7 +20,38 @@
 <li>https://figshare.com/articles/dataset/Wikipedia_Talk_Labels_Personal_Attacks/4054689</li>
 <li>https://figshare.com/articles/dataset/Wikipedia_Talk_Corpus/4264973</li></ul>
 
-<h4>Schema for demographics dataset</h4>
+
+<h4>Schema for attack_annotations dataset</h4>
+
+| Columns        | Description    |
+| :------------- | :----------  | 
+|rev_id | MediaWiki revision id of the edit that added the comment to a talk page (i.e. discussion)|
+|worker_id| Anonymized crowd-worker id|
+|quoting_attack| Indicator for whether the worker thought the comment is quoting or reporting a personal attack that originated in a different comment|
+|recipient_attack| Indicator for whether the worker thought the comment contains a personal attack directed at the recipient of the comment|
+|third_party_attack| Indicator for whether the worker thought the comment contains a personal attack directed at a third party|
+|other_attack| Indicator for whether the worker thought the comment contains a personal attack but is not quoting attack, a recipient attack or third party attack|
+|attack| Indicator for whether the worker thought the comment contains any form of personal attack. The exact question we posed can be found . The annotation takes on value 0 if the worker selected the option "This is not an attack or harassment" and value 1 otherwise|
+
+<h4>Schema for aggression_annotations dataset</h4>
+
+| Columns        | Description    |
+| :------------- | :----------  | 
+|rev_id| MediaWiki revision id of the edit that added the comment to a talk page (i.e. discussion)|
+|worker_id| Anonymized crowd-worker id|
+|aggression_score| Categorical variable ranging from very aggressive (-2), to neutral (0), to very friendly (2)|
+|aggression| Indicator variable for whether the worker thought the comment has an aggressive tone . The annotation takes on the value 1 if the worker considered the comment aggressive (i.e worker gave an aggression_score less than 0) and value 0 if the worker considered the comment neutral or friendly (i.e worker gave an aggression_score greater or equal to 0). Takes on values in {0, 1}|
+
+<h4>Schema for toxicity_annotations dataset</h4>
+
+| Columns        | Description    |
+| :------------- | :----------  | 
+|rev_id| MediaWiki revision id of the edit that added the comment to a talk page (i.e. discussion)|
+|worker_id| Anonymized crowd-worker id|
+|toxicity_score| Categorical variable ranging from very toxic (-2), to neutral (0), to very healthy (2)|
+|toxicity| Indicator variable for whether the worker thought the comment is toxic. The annotation takes on the value 1 if the worker considered the comment toxic (i.e worker gave a toxicity_score less than 0) and value 0 if the worker considered the comment neutral or healthy (i.e worker gave a toxicity_score greater or equal to 0). Takes on values in {0, 1}|
+
+<h4>Schema for all demographics datasets</h4>
 
 | Columns        | Description    |
 | :------------- | :----------  | 
@@ -30,7 +61,7 @@
 | age_group   | The age group of the crowd-worker. Takes on values in {'Under 18', '18-30', '30-45', '45-60', 'Over 60'}. | 
 | education | The highest education level obtained by the crowd-worker. Takes on values in {'none', 'some', 'hs', 'bachelors', 'masters', 'doctorate', 'professional'}. Here 'none' means no schooling, some means 'some schooling', 'hs' means high school completion, and the remaining terms indicate completion of the corresponding degree type. | 
 
-<h4>Schema for annotations dataset</h4>
+<h4>Schema for all comments datasets</h4>
 
 | Columns        | Description    |
 | :------------- | :----------  | 
