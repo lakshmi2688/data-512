@@ -1,30 +1,37 @@
-<h1><strong>data-512-a1</strong></h1>
+<h1><strong>Bias in data</strong></h1>
 
 <h2><strong> Goal of this project </strong></h2>
-<p>The goal of this project is to construct, analyze, and publish a dataset of monthly traffic on English Wikipedia from January 1 2008 through August 30 2020.
-We combine the data from two different API endpoints, the Legacy Pagecounts API and the Pageviews API and perform analysis of the combined data by plotting a time series plot.</p>
-
+<p>The goal of this assignment is to identify what, if any, sources of bias may exist in these datasets, and to develop testable hypotheses about how these biases might impact the behavior of machine learning models trained on the data, when those models are used for research purposes or to power data-driven applications. The purpose of this assignment is to perform a self-directed exploratory data analysis and think critically about the implications of the findings.</p>
 
 <h2><strong>License of the source data </strong></h2>
-<p>Unless otherwise specified in the endpoint documentation below, content accessed via the 2 APIS is licensed under the CC-BY-SA 3.0 and GFDL licenses, and you irrevocably agree to release modifications or additions made through this API under these licenses. More details are available in the link to the Wikimedia Foundation REST API terms of use: </p>
-<a href="https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions">Mediawiki Terms_and_conditions</a> 
+<p><p>All data we have collected and generated for the <a href='https://meta.wikimedia.org/wiki/Research:Detox'>Wikipedia Detox</a> project is available under free licenses on the <a href ='https://figshare.com/projects/Wikipedia_Talk/16731'>Wikipedia Talk Corpus on Figshare</a>, per the <a href='https://foundation.wikimedia.org/wiki/Open_access_policy'>open access policy</a>. </p>
 
 <h2><strong>Links to all relevant API documentation:</strong></h2>
-<p>In order to measure Wikipedia traffic from 2008-2020, you will need to collect data from two different API endpoints, the Legacy Pagecounts API and the Pageviews API.</p>
+<p>The corpus we use for the detox project is called the Wikipedia Talk corpus, and it consists of three datasets. Each dataset contains thousands of online discussion posts made by Wikipedia editors who discuss how to write and edit Wikipedia articles. Crowdworkers labelled these posts for three kinds of hostile speech: “toxicity”, “aggression”, and “personal attacks”. Many posts in each dataset were labelled by multiple crowdworkers for each type of hostile speech, to improve accuracy.</p>
 
-<ul><li>The Legacy Pagecounts API (documentation and endpoint links below) provides access to desktop and mobile traffic data from December 2007 through July 2016.
- <a href="https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts">Pagecounts API documentation</a>
- <a href="https://wikimedia.org/api/rest_v1/#/Pagecounts_data_(legacy)/get_metrics_legacy_pagecounts_aggregate_project_access_site_granularity_start_end">End point</a></li>
+<p>Google data scientists used these <a href='https://figshare.com/projects/Wikipedia_Talk/16731'>annotated datasets</a> to train machine learning models as part of a project called <a href='https://conversationai.github.io/'>Conversation AI</a>. The models have been used in a variety of software products and made freely accessible to anyone through the Perspective API. </p>
 
- <li>The Pageviews API (documentation and endpoint links below) provides access to desktop, mobile web, and mobile app traffic data from July 2015 through last month. 
- <a href="https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews">Pageviews API documentation</a>
- <a href="https://wikimedia.org/api/rest_v1/#/Pageviews_data/get_metrics_pageviews_aggregate_project_access_agent_granularity_start_end">Endpoint</a></li></ul>
-
+<p>There are currently two distinct types of data included:</p>
+   <ol><li> A corpus of all 95 million user and article talk diffs made between 2001–2015 which can be scored by our personal attacks model.</li>
+   <li> An annotated dataset of 1m crowd-sourced annotations that cover 100k talk page diffs (with 10 judgements per diff) for personal attacks, aggression, and toxicity.</li></ol>
+<h4>These datasets can be downloaded from the below links</h4>
+<ul><li>https://figshare.com/articles/dataset/Wikipedia_Talk_Labels_Aggression/4267550</li>
+<li>https://figshare.com/articles/dataset/Wikipedia_Talk_Labels_Toxicity/4563973</li>
+<li>https://figshare.com/articles/dataset/Wikipedia_Talk_Labels_Personal_Attacks/4054689</li>
+<li>https://figshare.com/articles/dataset/Wikipedia_Talk_Corpus/4264973</li></ul>
 
 <h2><strong>Description of fields in the data file en-wikipedia_traffic_200712-202008.csv</strong></h2>
-      <tr>	
+	<table>	
+		<thead>	
+
+		</thead>
+		<tbody>	
+      			<tr>	
+				<td>|</td>
 				<td>year</td>
+				<td>|</td>
 				<td>year in the format YYYY</td>
+				<td>|</td>		
 			</tr>
 			<tr>	
 				<td>month</td>
@@ -35,15 +42,10 @@ We combine the data from two different API endpoints, the Legacy Pagecounts API 
 				<td>	</td>
 				<td>	</td>
 			</tr>
-<ul>
-<li>year	  - year in the format YYYY </li>
-<li>month	  - month in the format MM</li>
-<li>pagecount_all_views	- number of views from pagecount API that has combined traffic from mobile and desktop </li>
-<li>pagecount_desktop_views	- number of views from pagecount API that has combined traffic from desktop only</li>
-<li>pagecount_mobile_views	- number of views from pagecount API that has combined traffic from mobile only </li>
-<li>pageview_all_views	- number of views from pageview API that has combined traffic from mobile and desktop </li>
-<li>pageview_desktop_views - number of views from pageview API that has combined traffic from desktop only</li>
-<li>pageview_mobile_views - number of views from pageview API that has combined traffic from mobile only</li> </ul>
+		</tbody>
+	</table>
+
+</body>
 
 
 <h2><strong>Known issues/considerations</strong></h2>
