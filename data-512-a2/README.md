@@ -84,6 +84,5 @@ Wulczyn, Ellery; Thain, Nithum; Dixon, Lucas (2016): Wikipedia Detox. figshare. 
 
 <h2><strong>Known issues/considerations</strong></h2>
 <ul><li>Impact of Harassment on User Retention uses observational data to study how newcomers behave after being harassed. In the future, the project will be extended to non-newcomers per <a href='https://meta.wikimedia.org/wiki/Research:Detox'>wiki/Research:Detox site</a></li>
-   <li></li>
-   <li></li></ul>
+</ul>
 
