@@ -20,21 +20,34 @@
 <li>https://figshare.com/articles/dataset/Wikipedia_Talk_Labels_Personal_Attacks/4054689</li>
 <li>https://figshare.com/articles/dataset/Wikipedia_Talk_Corpus/4264973</li></ul>
 
-<p>Let's understand the different columns in the <strong>demographics</strong> dataset</p>
-<ul><li><strong>worker_id</strong>: Anonymized crowd-worker id.</li>
-<li><strong>gender</strong>: The gender of the crowd-worker. Takes a value in {'male', 'female', and 'other'}.</li>
-<li><strong>english_first_language</strong>: Does the crowd-worker describe English as their first language. Takes a value in {0, 1}.</li>
-<li><strong>age_group</strong>: The age group of the crowd-worker. Takes on values in {'Under 18', '18-30', '30-45', '45-60', 'Over 60'}.</li>
-<li><strong>education</strong>: The highest education level obtained by the crowd-worker. Takes on values in {'none', 'some', 'hs', 'bachelors', 'masters', 'doctorate', 'professional'}. Here 'none' means no schooling, some means 'some schooling', 'hs' means high school completion, and the remaining terms indicate completion of the corresponding degree type.</li></ul>
-
 | Columns        | Description    |
 | :------------- | :----------  | 
 |  worker_id | Anonymized crowd-worker id.  | 
 | gender   | The gender of the crowd-worker. Takes a value in {'male', 'female', and 'other'}. | 
 |  english_first_language | Does the crowd-worker describe English as their first language. Takes a value in {0, 1}. | 
 | age_group   | The age group of the crowd-worker. Takes on values in {'Under 18', '18-30', '30-45', '45-60', 'Over 60'}. | 
+| education | The highest education level obtained by the crowd-worker. Takes on values in {'none', 'some', 'hs', 'bachelors', 'masters', 'doctorate', 'professional'}. Here 'none' means no schooling, some means 'some schooling', 'hs' means high school completion, and the remaining terms indicate completion of the corresponding degree type. | 
 
 
+<strong> Lets understand the different columns in the comments dataset</strong>
+
+<ul><li><strong>rev_id: </strong> MediaWiki revision id of the edit that added the comment to a talk page (i.e. discussion).</li>
+<li><strong>comment: </strong> Comment text. Consists of the concatenation of content added during a revision/edit of a talk page. MediaWiki markup and HTML have been stripped out. To simplify tsv parsing, \n has been mapped to NEWLINE_TOKEN, \t has been mapped to TAB_TOKEN and " has been mapped to ".</li>
+<li><strong>year: </strong> The year the comment was posted in.</li>
+<li><strong>logged_in: </strong> Indicator for whether the user who made the comment was logged in. Takes on values in {0, 1}.</li>
+<li><strong>ns: </strong>Namespace of the discussion page the comment was made in. Takes on values in {user, article}.</li>
+<li><strong>sample: </strong> Indicates whether the comment came via random sampling of all comments, or whether it came from random sampling of the 5 comments around a block event for violating WP:npa or WP:HA. Takes on values in {random, blocked}.</li>
+<li><strong>split: </strong> For model building in our paper we split comments into train, dev and test sets. Takes on values in {train, dev, test}.</li></ul>
+
+| Columns        | Description    |
+| :------------- | :----------  | 
+|  rev_id |  MediaWiki revision id of the edit that added the comment to a talk page (i.e. discussion).  | 
+| comment   | Comment text. Consists of the concatenation of content added during a revision/edit of a talk page. MediaWiki markup and HTML have been stripped out. To simplify tsv parsing, \n has been mapped to NEWLINE_TOKEN, \t has been mapped to TAB_TOKEN and " has been mapped to ". | 
+|  year | The year the comment was posted in | 
+| logged_in   | Indicator for whether the user who made the comment was logged in. Takes on values in {0, 1} | 
+| ns | Namespace of the discussion page the comment was made in. Takes on values in {user, article}. | 
+|  sample | Indicates whether the comment came via random sampling of all comments, or whether it came from random sampling of the 5 comments around a block event for violating WP:npa or WP:HA. Takes on values in {random, blocked}. | 
+| split   | For model building in our paper we split comments into train, dev and test sets. Takes on values in {train, dev, test}.| 
 
 <h2><strong>Known issues/considerations</strong></h2>
 <p>Data from the Pageview API excludes spiders/crawlers, while data from the Pagecounts API does not</p>
