@@ -4,7 +4,12 @@
 <p>The goal of this assignment is to identify what, if any, sources of bias may exist in these datasets, and to develop testable hypotheses about how these biases might impact the behavior of machine learning models trained on the data, when those models are used for research purposes or to power data-driven applications. The purpose of this assignment is to perform a self-directed exploratory data analysis and think critically about the implications of the findings.</p>
 
 <h2><strong>License of the source data </strong></h2>
-<p><p>All data we have collected and generated for the <a href='https://meta.wikimedia.org/wiki/Research:Detox'>Wikipedia Detox</a> project is available under free licenses on the <a href ='https://figshare.com/projects/Wikipedia_Talk/16731'>Wikipedia Talk Corpus on Figshare</a>, per the <a href='https://foundation.wikimedia.org/wiki/Open_access_policy'>open access policy</a>. </p>
+<ul><li>All data we have collected and generated for the <a href='https://meta.wikimedia.org/wiki/Research:Detox'>Wikipedia Detox</a> project is available under free licenses on the <a href ='https://figshare.com/projects/Wikipedia_Talk/16731'>Wikipedia Talk Corpus on Figshare</a>, per the <a href='https://foundation.wikimedia.org/wiki/Open_access_policy'>open access policy</a>. </li>
+<li>All the datasets are released under a <a href='https://wiki.creativecommons.org/wiki/CC0'>CC0 public domain dedication</a>. If you're using this data in your research, please provide attribution via the recommended citation below.</li></ul>
+
+<h4>Citation</h4>
+This dataset can be cited as:
+Wulczyn, Ellery; Thain, Nithum; Dixon, Lucas (2016): Wikipedia Detox. figshare. doi.org/10.6084/m9.figshare.4054689
 
 <h2><strong>Links to all relevant API documentation:</strong></h2>
 <p>The corpus we use for the detox project is called the Wikipedia Talk corpus, and it consists of three datasets. Each dataset contains thousands of online discussion posts made by Wikipedia editors who discuss how to write and edit Wikipedia articles. Crowdworkers labelled these posts for three kinds of hostile speech: “toxicity”, “aggression”, and “personal attacks”. Many posts in each dataset were labelled by multiple crowdworkers for each type of hostile speech, to improve accuracy.</p>
