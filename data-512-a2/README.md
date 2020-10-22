@@ -7,6 +7,11 @@
 <ul><li>Explore relationships between worker demographics and labeling behavior</li>
     <li>How consistent are labelling behaviors among workers with different demographic profiles? For example, are female-identified labelers more or less likely to label comments as aggressive than male-identified labelers?</li>
     <li>If the labelling behaviors are different, what are some possible causes and consequences of this difference?</li>
+    
+<h4>Analyze the demographics and annotations datasets and  answer some of the following questions</h4>
+<ul><li>Explore relationships between worker demographics and labeling behavior</li>
+    <li>How consistent are labelling behaviors among workers with different demographic profiles? For example, are female-identified labelers more or less likely to label comments as aggressive than male-identified labelers?</li>
+    <li>If the labelling behaviors are different, what are some possible causes and consequences of this difference?</li>
 
 <h2><strong>License of the source data </strong></h2>
 <ul><li>All data we have collected and generated for the <a href='https://meta.wikimedia.org/wiki/Research:Detox'>Wikipedia Detox</a> project is available under free licenses on the <a href ='https://figshare.com/projects/Wikipedia_Talk/16731'>Wikipedia Talk Corpus on Figshare</a>, per the <a href='https://foundation.wikimedia.org/wiki/Open_access_policy'>open access policy</a>. </li>
@@ -89,6 +94,6 @@ Wulczyn, Ellery; Thain, Nithum; Dixon, Lucas (2016): Wikipedia Detox. figshare. 
 | split   | For model building in our paper we split comments into train, dev and test sets. Takes on values in {train, dev, test}.| 
 
 <h2><strong>Known issues/considerations</strong></h2>
-<p>Impact of Harassment on User Retention uses observational data to study how newcomers behave after being harassed. In the future, the project will be extended to non-newcomers per </p><a href='https://meta.wikimedia.org/wiki/Research:Detox'>wiki/Research:Detox site</a>
+<p>Impact of Harassment on User Retention uses observational data to study how newcomers behave after being harassed. In the future, the project will be extended to non-newcomers per <a href='https://meta.wikimedia.org/wiki/Research:Detox'>wiki/Research:Detox site</a></p>
 
 
