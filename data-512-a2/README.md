@@ -15,7 +15,7 @@
     <li>Are these words representative of words that you would associate with hostile speech? Do you think these frequently labelled words are a good representation of hostile speech in online discussions outside of Wikipedia? Of offline discussions? Why or why not?</li></ul>
 
 <h2>License</h2>
-<p>All data collected or generated for this project is available under free licenses on <a href='https://figshare.com/projects/Wikipedia_Talk/16731'>Figshare</a>, per <a href='https://meta.wikimedia.org/wiki/Open_access_policy'>open access policy</a> </p>
+<p>All data collected or generated for this project is available under free licenses on <a href='https://figshare.com/projects/Wikipedia_Talk/16731'>Figshare</a>, per <a href='https://meta.wikimedia.org/wiki/Open_access_policy'>open access policy</a>. These datasets are released under a <a href='https://wiki.creativecommons.org/wiki/CC0'>CC0 public domain dedication.</a> If you're using this data in your research, please provide attribution via the recommended citation below. </p>
 <h4>Citation</h4>
 <p>This dataset can be cited as:
 Wulczyn, Ellery; Thain, Nithum; Dixon, Lucas (2016): Wikipedia Detox. figshare. <a href='doi.org/10.6084/m9.figshare.4054689'>doi.org/10.6084/m9.figshare.4054689</a></p>
@@ -96,6 +96,6 @@ Wulczyn, Ellery; Thain, Nithum; Dixon, Lucas (2016): Wikipedia Detox. figshare. 
 | split   | For model building in our paper we split comments into train, dev and test sets. Takes on values in {train, dev, test}.| 
 
 <h2><strong>Known issues/considerations</strong></h2>
-<p>Impact of Harassment on User Retention uses observational data to study how newcomers behave after being harassed. In the future, the project will be extended to non-newcomers per <a href='https://meta.wikimedia.org/wiki/Research:Detox'>wiki/Research:Detox site</a></p>
+<p>Impact of Harassment on User Retention uses observational data to study how newcomers behave after being harassed. In the future, the project will be extended to non-newcomers per <a href='https://meta.wikimedia.org/wiki/Research:Detox'>Research:Detox site</a></p>
 
 
