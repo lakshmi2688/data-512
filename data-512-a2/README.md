@@ -28,7 +28,8 @@ Wulczyn, Ellery; Thain, Nithum; Dixon, Lucas (2016): Wikipedia Detox. figshare. 
 <h4>Other reference links</h4>
 <ul><li><a href='https://meta.wikimedia.org/wiki/Research:Detox'>Overview of the research project Research:Detox</a></li>
 <li><a href='https://meta.wikimedia.org/wiki/Research:Detox/Data_Release'>Dataset description and schemas</a></li> 
-   <li><a href='https://conversationai.github.io/'>Overview of Google’s Conversation AI project</a></li></ul>
+   <li><a href='https://conversationai.github.io/'>Overview of Google’s Conversation AI project</a></li>
+   <li><a href='https://arxiv.org/abs/1610.08914'>Research Paper</li></ul>
 
 <h4>Schema for attack_annotations dataset</h4>
 
@@ -85,4 +86,5 @@ Wulczyn, Ellery; Thain, Nithum; Dixon, Lucas (2016): Wikipedia Detox. figshare. 
 <h2><strong>Known issues/considerations</strong></h2>
 <ul><li>Impact of Harassment on User Retention uses observational data to study how newcomers behave after being harassed. In the future, the project will be extended to non-newcomers per <a href='https://meta.wikimedia.org/wiki/Research:Detox'>wiki/Research:Detox site</a></li>
 </ul>
+
 
