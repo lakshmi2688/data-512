@@ -6,12 +6,12 @@
 <h4>We analyze the demographics and annotations datasets and  answer some of the following questions</h5>
 <ul><li>Explore relationships between worker demographics and labeling behavior</li>
     <li>How consistent are labelling behaviors among workers with different demographic profiles? For example, are female-identified labelers more or less likely to label comments as aggressive than male-identified labelers?</li>
-    <li>If the labelling behaviors are different, what are some possible causes and consequences of this difference?</li>
+    <li>If the labelling behaviors are different, what are some possible causes and consequences of this difference?</li></ul>
     
 <h4>Analyze the demographics and annotations datasets and  answer some of the following questions</h4>
 <ul><li>Explore relationships between worker demographics and labeling behavior</li>
     <li>How consistent are labelling behaviors among workers with different demographic profiles? For example, are female-identified labelers more or less likely to label comments as aggressive than male-identified labelers?</li>
-    <li>If the labelling behaviors are different, what are some possible causes and consequences of this difference?</li>
+    <li>If the labelling behaviors are different, what are some possible causes and consequences of this difference?</li></ul>
 
 <h4>Analyze the comments dataset for all the comments datasets and  answer some of the following questions</h4>
 <ul><li>Analyze the words most commonly associated with each of the three types of hostile speech</li>
