@@ -14,6 +14,8 @@
     <li>Are certain words more likely to be associated with comments labelled as hostile speech? Are there certain words that are frequently associated with one type of hostile speech (like “personal attacks”) but not others (like “toxicity”)?</li>
     <li>Are these words representative of words that you would associate with hostile speech? Do you think these frequently labelled words are a good representation of hostile speech in online discussions outside of Wikipedia? Of offline discussions? Why or why not?</li></ul>
 
+<h2>License</h2>
+<p>All data collected or generated for this project is available under free licenses on <a href='https://figshare.com/projects/Wikipedia_Talk/16731'>Figshare</a>, per the open access policy. </p>
 <h4>Citation</h4>
 <p>This dataset can be cited as:
 Wulczyn, Ellery; Thain, Nithum; Dixon, Lucas (2016): Wikipedia Detox. figshare. <a href='doi.org/10.6084/m9.figshare.4054689'>doi.org/10.6084/m9.figshare.4054689</a></p>
