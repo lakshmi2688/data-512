@@ -13,9 +13,10 @@
     <li>How consistent are labelling behaviors among workers with different demographic profiles? For example, are female-identified labelers more or less likely to label comments as aggressive than male-identified labelers?</li>
     <li>If the labelling behaviors are different, what are some possible causes and consequences of this difference?</li>
 
-<h2><strong>License of the source data </strong></h2>
-<ul><li>All data we have collected and generated for the <a href='https://meta.wikimedia.org/wiki/Research:Detox'>Wikipedia Detox</a> project is available under free licenses on the <a href ='https://figshare.com/projects/Wikipedia_Talk/16731'>Wikipedia Talk Corpus on Figshare</a>, per the <a href='https://foundation.wikimedia.org/wiki/Open_access_policy'>open access policy</a>. </li>
-<li>All the datasets are released under a <a href='https://wiki.creativecommons.org/wiki/CC0'>CC0 public domain dedication</a>. If you're using this data in your research, please provide attribution via the recommended citation below.</li></ul>
+<h4>Analyze the comments dataset for all the comments datasets and  answer some of the following questions</h4>
+<ul><li>Analyze the words most commonly associated with each of the three types of hostile speech</li>
+    <li>Are certain words more likely to be associated with comments labelled as hostile speech? Are there certain words that are frequently associated with one type of hostile speech (like “personal attacks”) but not others (like “toxicity”)?</li>
+    <li>Are these words representative of words that you would associate with hostile speech? Do you think these frequently labelled words are a good representation of hostile speech in online discussions outside of Wikipedia? Of offline discussions? Why or why not?</li>
 
 <h4>Citation</h4>
 This dataset can be cited as:
