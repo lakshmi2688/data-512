@@ -84,7 +84,7 @@ Wulczyn, Ellery; Thain, Nithum; Dixon, Lucas (2016): Wikipedia Detox. figshare. 
 | split   | For model building in our paper we split comments into train, dev and test sets. Takes on values in {train, dev, test}.| 
 
 <h2><strong>Known issues/considerations</strong></h2>
-<ul><li>Impact of Harassment on User Retention uses observational data to study how newcomers behave after being harassed. In the future, the project will be extended to non-newcomers per <a href='https://meta.wikimedia.org/wiki/Research:Detox'>wiki/Research:Detox site</a></li>
+<ul><li>Impact of Harassment on User Retention uses observational data to study how newcomers behave after being harassed. In the future, the project will be extended to non-newcomers per wiki/Research:Detox site <a href='https://meta.wikimedia.org/wiki/Research:Detox'/a></li>
 </ul>
 
 
