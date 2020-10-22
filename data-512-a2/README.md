@@ -19,8 +19,8 @@
     <li>Are these words representative of words that you would associate with hostile speech? Do you think these frequently labelled words are a good representation of hostile speech in online discussions outside of Wikipedia? Of offline discussions? Why or why not?</li>
 
 <h4>Citation</h4>
-This dataset can be cited as:
-Wulczyn, Ellery; Thain, Nithum; Dixon, Lucas (2016): Wikipedia Detox. figshare. <a href='doi.org/10.6084/m9.figshare.4054689'>doi.org/10.6084/m9.figshare.4054689</a>
+<p>This dataset can be cited as:
+Wulczyn, Ellery; Thain, Nithum; Dixon, Lucas (2016): Wikipedia Detox. figshare. <a href='doi.org/10.6084/m9.figshare.4054689'>doi.org/10.6084/m9.figshare.4054689</a></p>
 
 <h2>Packages</h2>
 <p>pandas, urllib, matplotlib.pyplot, numpy, seaborn</p>
