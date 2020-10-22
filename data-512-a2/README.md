@@ -7,24 +7,19 @@
 <ul><li>Explore relationships between worker demographics and labeling behavior</li>
     <li>How consistent are labelling behaviors among workers with different demographic profiles? For example, are female-identified labelers more or less likely to label comments as aggressive than male-identified labelers?</li>
     <li>If the labelling behaviors are different, what are some possible causes and consequences of this difference?</li></ul>
-    
-<h4>Analyze the demographics and annotations datasets and  answer some of the following questions</h4>
-<ul><li>Explore relationships between worker demographics and labeling behavior</li>
-    <li>How consistent are labelling behaviors among workers with different demographic profiles? For example, are female-identified labelers more or less likely to label comments as aggressive than male-identified labelers?</li>
-    <li>If the labelling behaviors are different, what are some possible causes and consequences of this difference?</li></ul>
+   
 
 <h4>Analyze the comments dataset for all the comments datasets and  answer some of the following questions</h4>
 <ul><li>Analyze the words most commonly associated with each of the three types of hostile speech</li>
     <li>Are certain words more likely to be associated with comments labelled as hostile speech? Are there certain words that are frequently associated with one type of hostile speech (like “personal attacks”) but not others (like “toxicity”)?</li>
-    <li>Are these words representative of words that you would associate with hostile speech? Do you think these frequently labelled words are a good representation of hostile speech in online discussions outside of Wikipedia? Of offline discussions? Why or why not?</li>
+    <li>Are these words representative of words that you would associate with hostile speech? Do you think these frequently labelled words are a good representation of hostile speech in online discussions outside of Wikipedia? Of offline discussions? Why or why not?</li></ul>
 
 <h4>Citation</h4>
 <p>This dataset can be cited as:
 Wulczyn, Ellery; Thain, Nithum; Dixon, Lucas (2016): Wikipedia Detox. figshare. <a href='doi.org/10.6084/m9.figshare.4054689'>doi.org/10.6084/m9.figshare.4054689</a></p>
 
-<h2>Packages</h2>
+<h2>Packages Used</h2>
 <p>pandas, urllib, matplotlib.pyplot, numpy, seaborn</p>
-
 
 <h2><strong>Links to all relevant API documentation:</strong></h2>
 <p>The corpus we use for the detox project is called the Wikipedia Talk corpus, and it consists of three datasets. Each dataset contains thousands of online discussion posts made by Wikipedia editors who discuss how to write and edit Wikipedia articles. Crowdworkers labelled these posts for three kinds of hostile speech: “toxicity”, “aggression”, and “personal attacks”. Many posts in each dataset were labelled by multiple crowdworkers for each type of hostile speech, to improve accuracy.</p>
