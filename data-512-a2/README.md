@@ -21,6 +21,7 @@
 Wulczyn, Ellery; Thain, Nithum; Dixon, Lucas (2016): Wikipedia Detox. figshare. <a href='doi.org/10.6084/m9.figshare.4054689'>doi.org/10.6084/m9.figshare.4054689</a></p>
 
 <h2>Packages Used</h2>
+
 | Module       | Version    |
 | :------------- | :----------  | 
 |numpy | 1.18.2|
