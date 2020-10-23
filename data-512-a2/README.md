@@ -9,7 +9,7 @@
     <li>If the labelling behaviors are different, what are some possible causes and consequences of this difference?</li></ul>
    
 
-<h4>Analyze the comments dataset for all the comments datasets and  answer some of the following questions</h4>
+<h4>We analyze the comments dataset for all the comments datasets and  answer some of the following questions</h4>
 <ul><li>Analyze the words most commonly associated with each of the three types of hostile speech</li>
     <li>Are certain words more likely to be associated with comments labelled as hostile speech? Are there certain words that are frequently associated with one type of hostile speech (like “personal attacks”) but not others (like “toxicity”)?</li>
     <li>Are these words representative of words that you would associate with hostile speech? Do you think these frequently labelled words are a good representation of hostile speech in online discussions outside of Wikipedia? Of offline discussions? Why or why not?</li></ul>
@@ -37,7 +37,7 @@ Wulczyn, Ellery; Thain, Nithum; Dixon, Lucas (2016): Wikipedia Detox. figshare. 
 <p>There are currently two distinct types of data included:</p>
    <ol><li> A corpus of all 95 million user and article talk diffs made between 2001–2015 which can be scored by our personal attacks model.</li>
    <li> An annotated dataset of 1m crowd-sourced annotations that cover 100k talk page diffs (with 10 judgements per diff) for personal attacks, aggression, and toxicity.</li></ol>
-<h4>These datasets can be downloaded from the below links</h4>
+<h4>Due to the large size of the datasets, these datasets can be downloaded from the below links</h4>
 <ul><li>https://figshare.com/articles/dataset/Wikipedia_Talk_Labels_Aggression/4267550</li>
 <li>https://figshare.com/articles/dataset/Wikipedia_Talk_Labels_Toxicity/4563973</li>
 <li>https://figshare.com/articles/dataset/Wikipedia_Talk_Labels_Personal_Attacks/4054689</li>
