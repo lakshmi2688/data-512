@@ -21,7 +21,12 @@
 Wulczyn, Ellery; Thain, Nithum; Dixon, Lucas (2016): Wikipedia Detox. figshare. <a href='doi.org/10.6084/m9.figshare.4054689'>doi.org/10.6084/m9.figshare.4054689</a></p>
 
 <h2>Packages Used</h2>
-<p>pandas, urllib, matplotlib.pyplot, numpy, seaborn</p>
+| Module       | Version    |
+| :------------- | :----------  | 
+|numpy | 1.18.2|
+|pandas | 1.0.3|
+|seaborn | 0.10.0|
+
 
 <h2><strong>Links to all relevant API documentation:</strong></h2>
 <p>The corpus we use for the detox project is called the Wikipedia Talk corpus, and it consists of three datasets. Each dataset contains thousands of online discussion posts made by Wikipedia editors who discuss how to write and edit Wikipedia articles. Crowdworkers labelled these posts for three kinds of hostile speech: “toxicity”, “aggression”, and “personal attacks”. Many posts in each dataset were labelled by multiple crowdworkers for each type of hostile speech, to improve accuracy.</p>
