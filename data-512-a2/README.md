@@ -1,7 +1,7 @@
 <h1><strong>Bias in data</strong></h1>
 
 <h2><strong> Goal of this project </strong></h2>
-<p>The goal of this project is to identify what, if any, sources of bias may exist in these datasets, and to develop testable hypotheses about how these biases might impact the behavior of machine learning models trained on the data, when those models are used for research purposes or to power data-driven applications. The purpose of this assignment is to perform a self-directed exploratory data analysis and think critically about the implications of the findings.</p>
+<p>The goal of this project is to identify what, if any, sources of bias may exist in these datasets, and to develop testable hypotheses about how these biases might impact the behavior of machine learning models trained on the data, when those models are used for research purposes or to power data-driven applications. We perform a self-directed exploratory data analysis and think critically about the implications of the findings.</p>
 
 <h4>We analyze the demographics and annotations datasets and  answer some of the following questions</h5>
 <ul><li>Explore relationships between worker demographics and labeling behavior</li>
