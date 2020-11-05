@@ -10,8 +10,8 @@
 <h4> Links to Data set and Data dictionary</h4>
 <p>The datasets are available for public use under <a href='https://www.census.gov/programs-surveys/household-pulse-survey/datasets.html'>census.gov</a> website as weekly files. 
 
-<p>Data dictionary is available in the census.gov website under the following links</p>
+<p>Data dictionary is available in the census.gov website under the following links
 <li><a href='https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation.html#phase1'>Phase 1 Household Pulse Survey Technical Documentation</a></li>
-<li><a href='https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation.html#phasePhase2'>Phase 2 Household Pulse Survey Technical Documentation</a></li>
+<li><a href='https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation.html#phasePhase2'>Phase 2 Household Pulse Survey Technical Documentation</a></li></p>
 
 <p>The dataset is very rich and has demographics information, COVID-19, employment, health, food security, food sufficiency, education, housing, mental health, unemployment, distance learning, computer access, stimulus, economic impact payment, consumer spending, disruptions among other details. Phase 1 dataset has 215 variables and Phase 2 dataset has 383 variables. In order to support the nation’s recovery, we need to know the ways this pandemic has affected people’s lives and livelihoods. Data from this survey will show the widespread effects of the coronavirus pandemic on individuals, families, and communities across the country.</p>
