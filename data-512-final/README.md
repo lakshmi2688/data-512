@@ -16,7 +16,7 @@ University of Washington
 ├── A5-Final-project-plan.md
 ├── LICENSE
 ├── README.md
-├── Analysis of COVID impact on US households
+├── Analysis of COVID impact on US households.ipynb
 ```
 
 <h3>Data sources</h3>
