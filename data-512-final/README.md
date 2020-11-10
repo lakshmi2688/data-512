@@ -12,10 +12,8 @@ University of Washington
 
 ## Repository structure
 ```
-├── A4-Final-project-proposal.md
-├── A5-Final-project-plan.md
-├── LICENSE
 ├── README.md
+├── LICENSE
 ├── Analysis of COVID impact on US households.ipynb
 ```
 
