@@ -36,7 +36,7 @@ University of Washington
      <li><strong>Phase 2</strong> dataset has 188 variables, 413976 observations and includes responses from people on how their domains are changing as the pandemic continues and, application and receipt of benefits, spending patterns, and availability of financial resources, post-secondary education disruptions, capacity to telework, and travel practices. </li>
    <p>In order to support the nation’s recovery, we need to know the ways this pandemic has affected people’s lives and livelihoods. Data from these datasets will show the widespread effects of the coronavirus pandemic on individuals, families, and communities across the country.</p>
    
-<h3>Download data</h3>
+<h4>Download data</h4>
 <p>Data is directly downloaded from census website using zipfile feature of python<p>
 
 <h4>Terms of use of census data </h4>
