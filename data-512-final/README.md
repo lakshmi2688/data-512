@@ -11,8 +11,8 @@
 <p>The datasets are available for public use under <a href='https://www.census.gov/programs-surveys/household-pulse-survey/datasets.html'>census.gov</a> website as weekly files. 
 
 <p>Data dictionary is available in the census.gov website under the following links</p>
-<li><a href='https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation.html#phase1'>Phase 1 Household Pulse Survey Technical Documentation</a></li>
-<li><a href='https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation.html#phasePhase2'>Phase 2 Household Pulse Survey Technical Documentation</a></li>
+<p><li><a href='https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation.html#phase1'>Phase 1 Household Pulse Survey Technical Documentation</a></li>
+<li><a href='https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation.html#phasePhase2'>Phase 2 Household Pulse Survey Technical Documentation</a></p></li>
 
 <p>The datasets are very rich and informative. Data is collected through survey and interviews. The dataset has been edited or imputed to fill in missing values in order to mitigate the non-response bias.</p>
     <li><strong>Phase 1</strong> dataset has 105 variables, 1088314 observations and includes employment status, food security, housing, physical and mental health, access to health care, and educational disruption. </li>
