@@ -17,6 +17,7 @@ University of Washington
 ├── LICENSE
 ├── README.md
 ├── Analysis of COVID impact on US households
+```
 
 <h3>Data sources</h3>
 <p>The <a href='https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/2020_HPS_Background.pdf'>Household Pulse Survey</a> provides timely data to help understand the experiences of American households during the coronavirus pandemic. The data provides insights on education, employment, food security, health, housing, social security benefits, household spending, and transportation. Data Collection has been done in 2 phases.</p>
