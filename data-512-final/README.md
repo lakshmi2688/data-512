@@ -5,9 +5,18 @@ Lakshmi Venkatasubramanian
 University of Washington  
 11/10/2020
 
-<h3> Motivation </h3> 
+<h3> Abstract </h3> 
 
 <p>The goal of this project is to understand the overall impact of COVID on people’s behavior, mental health, housing and livelihoods. There is a large amount of emotionally negative stimuli related to the COVID-19 pandemic. How do people prepare themselves in difficult times like this? Understanding the impact on people is important in order to mitigate the effects and be more prepared in the future. Analyzing and exploring people's response to pandemic can provide useful insights into people's perspective about COVID and the challenges they face.</p>
+
+
+## Repository structure
+```
+├── A4-Final-project-proposal.md
+├── A5-Final-project-plan.md
+├── LICENSE
+├── README.md
+├── Analysis of COVID impact on US households
 
 <h3>Data sources</h3>
 <p>The <a href='https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/2020_HPS_Background.pdf'>Household Pulse Survey</a> provides timely data to help understand the experiences of American households during the coronavirus pandemic. The data provides insights on education, employment, food security, health, housing, social security benefits, household spending, and transportation. Data Collection has been done in 2 phases.</p>
@@ -38,5 +47,22 @@ University of Washington
     <li>How do different groups based on age, race and ethnicity differ in their behavior or attitude towards COVID. Are there any patterns observed in the population based on certain characteristics pertaining to COVID?</li> 
 </ul>
 
+## Resources used
+
+This analysis was prepared using Python 3.8 running in a Jupyter Notebook environment.  
+Documentation for Python can be found here: https://docs.python.org/3.8/  
+Documentation for Jupyter Notebook can be found here: http://jupyter-notebook.readthedocs.io/en/latest/  
+
+The following Python packages were used and their documentation can be found at the accompanying links:
+
+* [pandas](https://pandas.pydata.org/)
+* [numpy](https://numpy.org/)
+* [IPython](https://ipython.org/)
+* [matplotlib](https://matplotlib.org/)
+* [seaborn](https://seaborn.pydata.org/)
+
 <h3>Unknowns and dependencies</h3>
 <p>These data are experimental and samples may not be representative of the population. </p>
+
+
+
