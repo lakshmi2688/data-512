@@ -1,3 +1,10 @@
+
+<h1>Analysis of COVID impact on US households</h1>
+
+Lakshmi Venkatasubramanian 
+University of Washington  
+11/10/2020
+
 <h3> Motivation </h3> 
 
 <p>The goal of this project is to understand the overall impact of COVID on people’s behavior, mental health, housing and livelihoods. There is a large amount of emotionally negative stimuli related to the COVID-19 pandemic. How do people prepare themselves in difficult times like this? Understanding the impact on people is important in order to mitigate the effects and be more prepared in the future. Analyzing and exploring people's response to pandemic can provide useful insights into people's perspective about COVID and the challenges they face.</p>
