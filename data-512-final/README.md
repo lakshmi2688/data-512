@@ -52,7 +52,7 @@ University of Washington
 <ul>
     <li>Understand the impacts of COVID in terms of employment loss, income loss, food insufficiency, education interruptions, inability to meet housing expenses and how does this vary by Race/Ethnicity or gender? Are minority groups and women affected the most?</li>
     <li>What is the impact on Mental health status (Anxiety and depression)? Is there a correlation between Mental health status (Anxiety and depression) and factors such as age, number of household members, gender, income, health status, race? How does the anxiety levels vary between first and last week of survey?</li>
-    <li>How does employment loss, income loss, food insufficiency, education interruptions, inability to meet housing expenses in Washington differ as compared  to national average?</li>
+    <li>How does some of these characteristics in Washington state differ as compared  to national average?</li>
     <li>How do different groups based on age, race and ethnicity differ in their behavior or attitude towards COVID. Are there any patterns observed in the population based on certain characteristics pertaining to COVID?</li> 
 </ul>
 
