@@ -3,7 +3,7 @@
 
 Lakshmi Venkatasubramanian 
 University of Washington  
-11/10/2020
+11/14/2020
 
 <h3> Abstract </h3> 
 
@@ -65,8 +65,8 @@ University of Washington
 <p>For all the research questions, multivariate analysis will be used.</p>
 <p><strong>Statistical Analysis Method</strong>
 <ul><li>Regression analysis will be used to train and determine the impactful predictors. This method is appropriate as all the data points are independent and the sample size is large enough to meet the normality assumption. As the dataset has both numerical and categorical data, regression techniques are suitable. The model is also interpretable.</li>
-<li>Clustering will be used to identify any patterns and classify groups of people based on similar characteristics</li></ul>
-<li><strong>Results</strong>
+<li>Clustering will be used to identify any patterns and classify groups of people based on similar characteristics</li></ul></p>
+<p><li><strong>Results</strong>
     The results will be presented in a comprehensive compilation of visualizations.</li></p>
 
 <h3>Source of Bias</h3>
