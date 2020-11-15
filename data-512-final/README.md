@@ -47,27 +47,27 @@ University of Washington
 <p>The Census Bureau is committed to open government by sharing its public data as open data. Census data continues to be a key national resource, serving as a fuel for entrepreneurship and innovation, scientific discovery, and commercial activity.  We continuously identify and publish datasets and Application Programming Interface’s (API’s) to Data.gov in accordance with the Office of Management and Budget (OMB) Memorandum M-10-06, the Executive Order 13642 on open data, and the overall principles outlined in the Digital Government Strategy.  In
  accordance with the Open Data Policy, M-13-13, the Census Bureau publishes its information in machine-readable formats while also safeguarding privacy and security.</p>
 
-
 <h3>Research Questions</h3>
 <ul>
     <li>Understand the impacts of COVID in terms of employment loss, income loss, food insufficiency, education interruptions, inability to meet housing expenses and how does this vary by Race/Ethnicity or gender? Are minority groups and women affected the most?</li>
     <li>What is the impact on Mental health status (Anxiety and depression)? Is there a correlation between Mental health status (Anxiety and depression) and factors such as age, number of household members, gender, income, health status, race? How does the anxiety levels vary between first and last week of survey?</li>
-    <li>How does some of these characteristics in Washington state differ as compared  to national average?</li>
+    <li>How does employment loss, income loss, food insufficiency, education interruptions, inability to meet housing expenses in Washington differ as compared  to national average?</li>
     <li>How do different groups based on age, race and ethnicity differ in their behavior or attitude towards COVID. Are there any patterns observed in the population based on certain characteristics pertaining to COVID?</li> 
 </ul>
 
 <h3>Background/Related Work</h3>
-<p>As we all know,the impacts of the pandemic and the economic fallout have been widespread, but are particularly prevalent among Black, Latino, Indigenous, and immigrant households. Similarly percentage of adults who report symptoms of anxiety or depression that have been shown to be associated with diagnoses of generalized anxiety disorder or major depressive disorder.  These symptoms generally occur more than half the days or nearly every day. The research questions will follow similar quantitative analysis and will target specific variables. Below are some references: </p>
+<p>As we all know,the impacts of the pandemic and the economic fallout have been widespread, but are particularly prevalent among Black, Latino, Indigenous, and immigrant households. This analysis will  deep dive into some of the impacts of covid by Age group, race and ethinicity. We also try to understand the different impacts by clustering groups of people based on similar characteristics The research questions will follow quantitative analysis and will target specific variables. Below are some references: </p>
 <li><a href='https://www.cbpp.org/research/poverty-and-inequality/tracking-the-covid-19-recessions-effects-on-food-housing-and'>Covid Recession effects</a></li>
 <li><a href='https://www.cdc.gov/nchs/covid19/pulse/mental-health.htm'>Covid data from NCHS</a></li>
 
 
 <h3>Methodology</h3>
-<ul>
-    <li>For the first 2 research questions, multivariate regression analysis will be used. This will help me to understand any correlation among the variables. </li>
-    <li>For question 3, statitical tests such as z-test will be helpful in understanding the difference between WA state and national average </li>
-    <li>For the third question, clustering and PCA will help me understand the various patterns in the behavior</li> 
-</ul>
+<p>For all the research questions, multivariate analysis will be used.</p>
+<p><strong>Statistical Analysis Method</strong>
+<ul><li>Regression analysis will be used to train and determine the impactful predictors. This method is appropriate as all the data points are independent and the sample size is large enough to meet the normality assumption. As the dataset has both numerical and categorical data, regression techniques are suitable. The model is also interpretable.</li>
+<li>Clustering will be used to identify any patterns and classify groups of people based on similar characteristics</li></ul>
+<li><strong>Results</strong>
+    The results will be presented in a comprehensive compilation of visualizations.</li></p>
 
 <h3>Source of Bias</h3>
 <p> Nonsampling errors can also occur and are more likely for surveys that are implemented quickly, achieve low response rates, and rely on online response.  Nonsampling errors for the Household Pulse Survey may include:</p>
@@ -78,7 +78,9 @@ University of Washington
 <li><strong>Processing error: </strong>Forms may be lost, data may be incorrectly keyed, coded, or recoded. The real-time dissemination of the Household Pulse Survey provided limited time to identify and fix processing errors.</li>
  
 <p>The Census Bureau employs quality control procedures to minimize these errors.  However, the potential bias due to nonsampling errors has not yet been evaluated.</p>
-## Resources used
+
+
+<h3>Resources used</h3>
 
 This analysis was prepared using Python 3.8 running in a Jupyter Notebook environment.  
 Documentation for Python can be found here: https://docs.python.org/3.8/  
