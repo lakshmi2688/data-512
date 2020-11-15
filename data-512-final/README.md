@@ -66,8 +66,9 @@ University of Washington
 <p><strong>Statistical Analysis Method</strong>
 <ul><li>Regression analysis will be used to train and determine the impactful predictors. This method is appropriate as all the data points are independent and the sample size is large enough to meet the normality assumption. As the dataset has both numerical and categorical data, regression techniques are suitable. The model is also interpretable.</li>
 <li>Clustering will be used to identify any patterns and classify groups of people based on similar characteristics</li></ul></p>
-<p><li><strong>Results</strong>
-    The results will be presented in a comprehensive compilation of visualizations.</li></p>
+<p><strong>Results</strong>
+    <li>The results will be presented in a comprehensive compilation of visualizations.</li>
+</p>
 
 <h3>Source of Bias</h3>
 <p> Nonsampling errors can also occur and are more likely for surveys that are implemented quickly, achieve low response rates, and rely on online response.  Nonsampling errors for the Household Pulse Survey may include:</p>
