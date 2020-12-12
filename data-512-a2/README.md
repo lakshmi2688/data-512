@@ -51,7 +51,7 @@ Wulczyn, Ellery; Thain, Nithum; Dixon, Lucas (2016): Wikipedia Detox. figshare. 
 
 <h4>Schema for attack_annotations dataset</h4>
 
-| Columns        | Description    |
+| File       | Description    |
 | :------------- | :----------  | 
 |rev_id | MediaWiki revision id of the edit that added the comment to a talk page (i.e. discussion)|
 |worker_id| Anonymized crowd-worker id|
